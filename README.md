@@ -12,7 +12,8 @@ The second objective involves classification tasks, aimed at detecting engine fa
 # 1. Binary Classification 
 This was used for failure detection, where the model predicts whether an engine is at risk of failure (high hazard) or not (low hazard). Thresholds for RUL were defined to differentiate between these states, such as classifying engines with RUL below 50 cycles as high risk.
 
-# 2. Multi-Class Classification: This was used for damage classification, which is significantly more challenging. For FD004, which includes two fault modes, the goal was to classify engine damage into multiple categories based on the type and severity of faults. This required careful feature engineering and the use of advanced multi-class classification models such as gradient boosting algorithms and neural networks.
+# 2. Multi-Class Classification
+This was used for damage classification, which is significantly more challenging. For FD004, which includes two fault modes, the goal was to classify engine damage into multiple categories based on the type and severity of faults. This required careful feature engineering and the use of advanced multi-class classification models such as gradient boosting algorithms and neural networks.
 Implementing multi-class classification proved to be more complex due to the increased variability in the data and the need to account for multiple fault modes simultaneously. Unlike FD001, FD004 requires models to distinguish between different fault types, necessitating more sophisticated approaches and deeper domain knowledge.
 
 # The Role of Domain Knowledge
