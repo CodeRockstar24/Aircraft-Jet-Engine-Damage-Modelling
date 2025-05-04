@@ -1,4 +1,5 @@
 # Aircraft-Jet-Engine-Damage-Modelling
+![alt text](https://github.com/CodeRockstar24/Aircraft-Jet-Engine-Damage-Modelling/blob/fb3f26937339991d1b8f3b9a1fe9159f8de48897/Jet%20Engine%20Diagram.png)
 
 Aircraft Jet Engine Damage Modelling Using Data Mining and Statistical Techniques
 Aircraft jet engine damage modelling is a critical task for predictive maintenance and operational safety in the aviation industry. This project leverages data mining, statistical, and numerical techniques, implemented using Python and Jupyter Notebooks, to analyze and predict engine health. The modelling focuses on two datasets, FD001 and FD004, which are subsets of NASA's C-MAPSS dataset. These datasets provide time-series data from simulated jet engine operations under varying conditions.
